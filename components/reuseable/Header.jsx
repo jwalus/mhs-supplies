@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <header className="relative z-50 w-full h-[6.5rem] bg-gray-300 flex justify-center">
-      <div className="mx-auto flex items-center justify-between w-full max-w-7xl px-4">
+      <div className="flex items-center justify-between w-[65%]">
         <div className="text-lg font-bold">
           <a href="/">LOGO</a>
         </div>
