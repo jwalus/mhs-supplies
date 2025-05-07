@@ -18,14 +18,14 @@ export default function Header() {
   };
 
   const renderNestedLinks = (items, level = 1) => (
-    <div className={`pl-${level * 4} space-y-1`}>
+    <div className={`pl-${level * 4} space-y-1 text-left`}>
       {items.map((item) => (
         <div key={item.label}>
           {item.children ? (
             <>
               <button
                 onClick={() => toggleNested(item.label)}
-                className="w-full text-left py-1 flex justify-between items-center"
+                className="w-full text-left py-2 flex justify-between items-center"
               >
                 {item.label}
                 <ChevronRightIcon
@@ -35,7 +35,7 @@ export default function Header() {
               {openNestedDropdown[item.label] && renderNestedLinks(item.children, level + 1)}
             </>
           ) : (
-            <a href={item.href} className="block py-1">{item.label}</a>
+            <a href={item.href} className="block py-2 pl-4">{item.label}</a>
           )}
         </div>
       ))}
@@ -105,16 +105,16 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-4 text-sm font-medium border-t w-full max-w-7xl mx-auto">
-          {navLinks.map((item) => (
-            <div key={item.label}>
+        <div className="md:hidden absolute top-[6.5rem] left-0 w-full bg-gray-300 shadow-lg px-4 py-4 text-sm font-medium flex flex-col text-left z-50">
+          {navLinks.map((item, index) => (
+            <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b" : ""}`}>
               <button
                 onClick={() =>
                   setOpenMobileDropdown(openMobileDropdown === item.label ? null : item.label)
                 }
-                className="w-full text-left py-2 flex justify-between items-center"
+                className="w-full text-left py-3 flex justify-between items-center"
               >
-                {item.label}
+                
                 {item.children && (
                   <ChevronRightIcon
                     className={`w-4 h-4 transition-transform duration-200 ${openMobileDropdown === item.label ? "rotate-90" : ""}`}
@@ -123,7 +123,7 @@ export default function Header() {
               </button>
               {(openMobileDropdown === item.label || !item.children) && (
                 item.children ? renderNestedLinks(item.children) : (
-                  <a href={item.href} className="block pl-4 py-1">{item.label}</a>
+                  <a href={item.href} className="block pl-4 py-2">{item.label}</a>
                 )
               )}
             </div>
