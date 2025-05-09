@@ -1,10 +1,11 @@
-import Header from "@/components/reuseable/Header";
+import BodyOne from "@/components/products/BodyOne";
 
 export default function Page() {
   return (
     <div className="flex flex-col w-full min-h-screen">
-        <Header />
-      <div>products</div>
+      <div>
+        <BodyOne />
+      </div>
     </div>
   );
 }
