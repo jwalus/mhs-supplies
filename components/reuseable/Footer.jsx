@@ -53,7 +53,10 @@ export default function Footer() {
             <a className="hover:scale-110 tw-transition-standard" href="/privacy">Terms & Privacy</a>
           </div>
         </div>
-        <div>
+        <div className="border-t-[1px] border-blueOne pt-[1rem]">
+          <div className="tw-center mb-[1rem] text-xs">
+            <span className="w-[80%]">MHS Wound Care is redefining home healthcare delivery. We’re dedicated to improving patient outcomes with premium wound care supplies while equipping your practice with efficient digital tools, fast fulfillment, and responsive support that help you focus on what matters most — quality care.</span>
+          </div>
           <div className="flex justify-center text-center mb-[1rem] text-xs">
             Copyright © 2025 {BusinessInfo.name}.
           </div>
