@@ -1,4 +1,5 @@
 "use client";
+
 import ContactCard from "../reuseable/ContactCard";
 import Text from "@/public/content/contact/text/Text";
 
@@ -30,7 +31,7 @@ export default function BodyOne() {
     ];
 
     return (
-        <div className="flex justify-center w-full bg-gray-200 py-10">
+        <div className="flex flex-col justify-center w-full bg-gray-200">
             <div className="w-[65%] flex flex-row gap-10">
                 <div className="w-1/2">
                     <ContactCard />
@@ -47,12 +48,11 @@ export default function BodyOne() {
                         </div>
                     ))}
                     <div className="">
-                    <h3 className="text-xl font-bold">{SideHeader}</h3>
-                    <p>{SideText1}</p>
-                    <p>{SideText12}</p>
+                        <h3 className="text-xl font-bold">{SideHeader}</h3>
+                        <p>{SideText1}</p>
+                        <p>{SideText12}</p>
+                    </div>
                 </div>
-                </div>
-
             </div>
         </div>
     );
