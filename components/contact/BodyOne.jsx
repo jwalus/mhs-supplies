@@ -20,7 +20,7 @@ export default function BodyOne() {
         Svg4,
         SideHeader,
         SideText1,
-        SideText12,
+        SideText2,
     } = Text;
 
     const contactItems = [
@@ -31,27 +31,27 @@ export default function BodyOne() {
     ];
 
     return (
-        <div className="flex justify-center w-full ">
-            <div className="tw-container-responsive flex flex-row gap-10">
-                <div className="w-1/2">
+        <div className="flex justify-center w-full">
+            <div className="tw-container-responsive flex flex-col mdlg:flex-row my-[3rem] gap-[3rem]">
+                <div className="mdlg:w-[60%]">
                     <ContactCard />
                 </div>
 
-                <div className="w-1/2">
+                <div className="mdlg:w-[40%]">
+                    <div>
+                        <h3 className="text-2xl font-semibold text-orangeOne">{SideHeader}</h3>
+                        <p className="text-lg mt-[0.75rem] font-semibold">{SideText1}</p>
+                        <p className="text-lg mt-[1rem] mb-[2rem]">{SideText2}</p>
+                    </div>
                     {contactItems.map(({ header, text, Icon }, index) => (
-                        <div key={index} className="flex items-start gap-4">
-                            <Icon className="w-6 h-6 mt-1" />
-                            <div>
-                                <h4 className="font-semibold text-lg">{header}</h4>
-                                <p className="whitespace-pre-line">{text}</p>
+                        <div key={index} className="flex items-start gap-[1rem]">
+                            <Icon className="w-6 h-6 mt-1 text-blueOne" />
+                            <div className="mb-[1rem]">
+                                <h4 className="font-bold text-sm">{header}</h4>
+                                <p className="whitespace-pre-line text-base font-semibold">{text}</p>
                             </div>
                         </div>
                     ))}
-                    <div className="">
-                        <h3 className="text-xl font-bold">{SideHeader}</h3>
-                        <p>{SideText1}</p>
-                        <p>{SideText12}</p>
-                    </div>
                 </div>
             </div>
         </div>

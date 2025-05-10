@@ -44,7 +44,7 @@ export default function Header() {
   );
 
   return (
-    <header className="relative z-50 w-full h-[6.5rem] bg-gray-300 flex justify-center">
+    <header className="relative z-50 w-full h-[6.5rem] bg-gray-200 flex justify-center">
       <div className="flex items-center justify-between tw-container-responsive">
         <div className="flex justify-center items-center">
           <a href="/" className="">
@@ -85,7 +85,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-300 shadow-lg px-4 text-sm font-medium flex flex-col text-left z-50">
+        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-200 shadow-lg px-4 text-sm font-medium flex flex-col text-left z-50">
           {navLinks.map((item, index) => (
             <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b" : ""}`}>
               <button

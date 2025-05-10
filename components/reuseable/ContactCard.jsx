@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BusinessInfo from "@/public/content/reuseable/BusinessInfo";
+import Button from "./Button";
 
 export default function ContactCard() {
     const [phone, setPhone] = useState("");
@@ -51,27 +52,27 @@ export default function ContactCard() {
 
     return (
         <div>
-            <div className=" p-[1rem] m-[1rem] rounded-md">
-                <div>
+            <div className="bg-gray-200 p-[1rem]">
+                <div  className="text-2xl font-semibold text-orangeOne">
                     Contact Us Today
                 </div>
                 <form className="flex flex-col w-full">
                     <div className="flex flex-col w-full">
                         <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="name">Name <span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
-                        <input type="text" className="py-3 px-3 text-[20px] w-full" id="name" name="name" required />
+                        <input type="text" className="py-3 px-3 text-[18px] w-full" id="name" name="name" required />
                     </div>
 
                     <div className="flex flex-col mid:flex-row gap-3 w-full">
                         <div className="flex flex-col w-full">
                             <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="email">Email <span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
-                            <input type="email" className="py-3 px-3 text-[20px] w-full" id="email" name="email" required />
+                            <input type="email" className="py-3 px-3 text-[18px] w-full" id="email" name="email" required />
                         </div>
 
                         <div className="flex flex-col w-full">
                             <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="phone">Phone <span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
                             <input
                                 type="tel"
-                                className="py-3 px-3 text-[20px] w-full"
+                                className="py-3 px-3 text-[18px] w-full"
                                 id="phone"
                                 name="phone"
                                 value={phone}
@@ -83,11 +84,11 @@ export default function ContactCard() {
 
                     <div className="flex flex-col w-full">
                         <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="message">Message<span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
-                        <textarea id="message" name="message" className="py-3 px-3 text-[20px] w-full resize-none" required></textarea>
+                        <textarea id="message" name="message" className="py-3 px-3 text-[18px] w-full resize-none" required></textarea>
                     </div>
 
-                    <div className="flex justify-center mt-[2rem] mb-[2rem] bg-blue-500">
-                        Submit
+                    <div className="mt-[1rem]">
+                    <Button text={"Submit"} />
                     </div>
 
                     {formStatus && (
