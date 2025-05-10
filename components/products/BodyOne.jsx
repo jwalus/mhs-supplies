@@ -19,8 +19,6 @@ export default function BodyOne() {
         Point4,
         Point5,
         Point6,
-        Point7,
-        Point8,
         Button1
     } = Text;
 
@@ -31,21 +29,21 @@ export default function BodyOne() {
         { name: Product4Name, data: Product4Data }
     ];
 
-    const points = [Point1, Point2, Point3, Point4, Point5, Point6, Point7, Point8];
+    const points = [Point1, Point2, Point3, Point4, Point5, Point6];
 
     return (
         <div className="flex justify-center w-full bg-gray-200 h-auto py-10">
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
-                    <h1 className="">{Header}</h1>
+                    <h1 className="text-xl font-semibold">{Header}</h1>
                     <div className="flex flex-row w-full">
                         <div className="w-2/3">
-                            <h2 className="">Products</h2>
+                            <h2 className="text-blueOne font-semibold my-[1.2rem]">Products:</h2>
                             <div className="space-y-4">
                                 {products.map((product, index) => (
                                     <div key={index}>
-                                        <h3 className="">{product.name}</h3>
-                                        <p className="">{product.data}</p>
+                                        <h3 className="text-2xl pb-[0.4rem] font-semibold">{product.name}</h3>
+                                        <p className="text-lg">{product.data}</p>
                                     </div>
                                 ))}
                             </div>

@@ -16,11 +16,9 @@ const Text = {
     Point1: "Partner with us as a Wound Care Kits provider to explore customized product solutions based on your clinical needs.",
     Point2: "Receive expert support for both professional staff training and patient education initiatives.",
     Point3: "Establish medical necessity during initial wound assessments with guided documentation tools.",
-    Point4: "Leverage real-time, thorough documentation and data tracking to streamline care planning.",
-    Point5: "Work with our team to determine the most appropriate Wound Care Kit for each patient’s initial dressing.",
-    Point6: "Support accurate wound diagnosis and treatment with insights from Certified Wound Specialists (CWS).",
-    Point7: "Issue a Standard Written Order (SWO) to initiate delivery of up to one month’s supply of daily-use Wound Care Kits.",
-    Point8: "Customized Care: Each Wound Care Kit is tailored to the patient’s clinical needs and shipped directly to their home.",
+    Point4: "Support accurate wound diagnosis and treatment with insights from Certified Wound Specialists (CWS).",
+    Point5: "Issue a Standard Written Order (SWO) to initiate delivery of up to one month’s supply of daily-use Wound Care Kits.",
+    Point6: "Customized Care: Each Wound Care Kit is tailored to the patient’s clinical needs and shipped directly to their home.",
 
     Button1: "Explore Our Options"
 };

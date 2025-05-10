@@ -2,12 +2,15 @@
 
 export default function BodyOne() {
     return (
-        <div className="flex justify-center w-full bg-gray-200 h-[20rem]">
-            <div className="tw-container-responsive">
-                <div className="flex flex-col justify-center items-center h-full">
+        <div className="flex justify-center w-full h-[50rem]">
+            <div className="tw-container-responsive mt-[4rem] tw-center flex-col">
+                <div className="flex flex-col gap-[2rem]">
+                    <h1 className="text-2xl font-semibold">Learn How to Properly Apply Wound Care Products for Optimal Healing</h1>
+                    <h2 className="md:text-xl">This step-by-step video will guide you through the correct application of collagen dressings, powders, and other wound care materials.</h2>
+                </div>
+                <div className="flex flex-col justify-center items-center my-[4rem] w-full h-full">
                     <iframe
-                        width="560"
-                        height="315"
+                        className="flex justify-center items-center w-full h-full"
                         src="https://www.youtube.com/embed/D1uTjaVwGRk"
                         title="How To Apply"
                         frameBorder="0"

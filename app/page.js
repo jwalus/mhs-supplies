@@ -6,7 +6,7 @@ import BodyThree from "@/components/home/BodyThree";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full min-h-screen">
+    <div className="flex flex-col w-full">
       <div>
       <BodyOne />
       <BodyTwo />

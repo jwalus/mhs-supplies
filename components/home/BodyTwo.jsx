@@ -1,5 +1,6 @@
 "use client";
 import Text from "@/public/content/home/text/BodyTwoText";
+import Button from "../reuseable/Button";
 
 export default function BodyTwo() {
 
@@ -90,7 +91,7 @@ export default function BodyTwo() {
                             <h2 className="md:text-xl">{BottomText}</h2>
                         </div>
                         <div className="tw-center mt-[2rem]">
-                            {BottomBtnText}
+                            <Button text={BottomBtnText} />
                         </div>
                     </div>
                 </div>
