@@ -22,7 +22,7 @@ export default function BodyThree() {
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center">
                     <div className="flex flex-col text-center">
-                        <h1 className="">{Header}</h1>
+                        <h1 className="text-3xl mb-[2rem] font-semibold">{Header}</h1>
                         <div className="flex flex-row">
                             <div className="w-1/2">
                                 <Image
@@ -36,7 +36,7 @@ export default function BodyThree() {
                             <div className="flex flex-col w-1/2">
                                 {textArray.map((text, index) => (
                                     <div key={index} className="flex flex-row">
-                                        <Svg className="w-5 h-5 mt-1 text-blue-600" />
+                                        <Svg className="w-6.25 h-6.25 mt-1 text-blue-600" />
                                         <p className="">{text}</p>
                                     </div>
                                 ))}

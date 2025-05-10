@@ -13,22 +13,22 @@ export default function BodyOne() {
     } = Text;
 
     return (
-        <div className="flex justify-center w-full bg-gray-200 h-[20rem]">
-            <div className="tw-container-responsive">
+        <div className="flex justify-center w-full bg-gray-200 h-auto">
+            <div className="tw-container-responsive my-[2rem]">
                 <div className="flex flex-col justify-center items-center">
-                    <div className="flex flex-col text-center gap-[2rem]">
-                        <h1 className="">{TextOne}</h1>
-                        <h2 className="">{TextTwo}</h2>
+                    <div className="flex flex-col text-center gap-[3rem]">
+                        <h1 className="text-3xl md:text-5xl font-semibold">{TextOne}</h1>
+                        <h2 className="md:text-xl">{TextTwo}</h2>
                     </div>
-                    <div className="flex flex-row gap-[4rem]">
-                        <div>
-                            <SvgOne className="w-6 h-6 text-gray-800" />
-                            <h2>{SvgTextOne}</h2>
+                    <div className="flex flex-row gap-[4rem] mt-[3rem]">
+                        <div className="tw-center flex-col">
+                            <SvgOne className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem] text-gray-800" />
+                            <h2 className="text-xl font-bold">{SvgTextOne}</h2>
                         </div>
 
-                        <div>
-                            <SvgTwo className="w-6 h-6 text-gray-800" />
-                            <h2>{SvgTextTwo}</h2>
+                        <div className="tw-center flex-col">
+                            <SvgTwo className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem] text-gray-800" />
+                            <h2 className="text-xl font-bold">{SvgTextTwo}</h2>
                         </div>
                     </div>
                 </div>

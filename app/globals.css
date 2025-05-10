@@ -13,8 +13,16 @@
     @apply bg-gradient-to-r from-blueOne to-blueTwo;
   }
 
+  .tw-bg-orange-gradient {
+    @apply bg-gradient-to-r from-orangeOne to-orangeTwo;
+  }
+
   .tw-transition-standard {
     @apply transition-all duration-300 ease-in-out;
+  }
+
+  .tw-center {
+    @apply items-center text-center flex justify-center;
   }
 }
 
