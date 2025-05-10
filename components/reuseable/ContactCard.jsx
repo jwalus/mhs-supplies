@@ -51,7 +51,7 @@ export default function ContactCard() {
 
     return (
         <div>
-            <div className="bg-gray-200 p-[1rem] m-[1rem] rounded-md">
+            <div className=" p-[1rem] m-[1rem] rounded-md">
                 <div>
                     Contact Us Today
                 </div>

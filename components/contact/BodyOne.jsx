@@ -31,7 +31,7 @@ export default function BodyOne() {
     ];
 
     return (
-        <div className="flex justify-center w-full bg-gray-200">
+        <div className="flex justify-center w-full ">
             <div className="tw-container-responsive flex flex-row gap-10">
                 <div className="w-1/2">
                     <ContactCard />

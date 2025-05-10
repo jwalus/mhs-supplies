@@ -16,7 +16,7 @@ module.exports = {
        orangeTwo: "#f2a61d",
       },
       screens: {
-        
+        mdlg: "855px"
       },
     },
   },

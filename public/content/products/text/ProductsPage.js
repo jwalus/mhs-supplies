@@ -21,18 +21,25 @@ const Text = {
     Product4Name: "Island Composite Dressing",
     Product4Data: "Engineered for secure, all-in-one coverage, these dressings combine a soft, non-adherent pad with an absorbent core and waterproof backing. The gentle adhesive border keeps the dressing in place without irritating the skin — even through daily movement.",
 
-    Point1: "Partner with us as a Wound Care Kit provider to explore customized product solutions based on your clinical needs.",
+
+    Point1: "Partner with us to deliver customized Wound Care Kits built around your clinical workflow.",
     Point1Svg: Partner,
-    Point2: "Receive expert support for both professional staff training and patient education initiatives.",
+
+    Point2: "Access expert support for both provider training and patient education.",
     Point2Svg: Hospital,
-    Point3: "Establish medical necessity during initial wound assessments with guided documentation tools.",
+
+    Point3: "Easily establish medical necessity with guided wound assessment tools.",
     Point3Svg: Medical,
-    Point4: "Support accurate wound diagnosis and treatment with insights from Certified Wound Specialists (CWS).",
+
+    Point4: "Improve diagnosis and care with input from Certified Wound Specialists (CWS).",
     Point4Svg: Bandage,
-    Point5: "Issue a Standard Written Order (SWO) to initiate delivery of up to one month’s supply of daily-use Wound Care Kits.",
+
+    Point5: "Submit a Standard Written Order (SWO) to begin delivery of up to 30 days of supplies.",
     Point5Svg: MedicalBoard,
-    Point6: "Customized Care: Each Wound Care Kit is tailored to the patient’s clinical needs and shipped directly to their home.",
+
+    Point6: "Each kit is personalized to the patient’s needs and shipped directly to their home.",
     Point6Svg: House,
+
     Button1: "Explore Our Options"
 };
 

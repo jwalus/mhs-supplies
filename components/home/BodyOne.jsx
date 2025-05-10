@@ -13,7 +13,7 @@ export default function BodyOne() {
     } = Text;
 
     return (
-        <div className="flex justify-center w-full bg-gray-200 h-auto">
+        <div className="flex justify-center w-full  h-auto">
             <div className="tw-container-responsive my-[2rem]">
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col text-center gap-[3rem]">

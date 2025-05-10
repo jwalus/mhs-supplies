@@ -41,7 +41,7 @@ export default function BodyOne() {
   } = Text;
 
   return (
-    <div className="flex justify-center w-full bg-gray-200">
+    <div className="flex justify-center w-full ">
       <div className="tw-container-responsive py-12">
         <div>
           <h1>{TermsHeader}</h1>

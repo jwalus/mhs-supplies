@@ -18,7 +18,7 @@ export default function BodyThree() {
     const textArray = [Text1, Text2, Text3, Text4, Text5, Text6, Text7];
 
     return (
-        <div className="flex justify-center w-full bg-gray-200 py-10">
+        <div className="flex justify-center w-full  py-10">
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center">
                     <div className="flex flex-col text-center">
