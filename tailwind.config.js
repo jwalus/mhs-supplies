@@ -10,3 +10,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+// #285d8c => #3d81b0 + #ea5e23 => #f4ac19

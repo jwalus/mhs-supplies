@@ -1,15 +1,14 @@
 const BusinessInfo = {
-  name: "MHS",
+  name: "MHS Wound Care",
   address: {
-    street: "123 Main St",
-    city: "Chicago",
+    street: "2720 S. River Rd",
+    city: "Des Plaines",
     state: "IL",
-    zip: "12345",
+    zip: "60018",
   },
   contact: {
-    phone: "(123) 123-1234",
+    phone: "(844) 292-5708",
     email: "email@email.com",
-    website: "",
   },
 };
 
