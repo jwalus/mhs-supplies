@@ -86,11 +86,11 @@ export default function BodyTwo() {
                     </div>
 
                     <div className="flex flex-col md:flex-row">
-                        <div className="flex flex-col gap-[2rem]">
+                        <div className="flex flex-col gap-[2rem] w-[80%]">
                             <h1 className="text-2xl font-semibold">{BottomHeader}</h1>
                             <h2 className="md:text-xl">{BottomText}</h2>
                         </div>
-                        <div className="tw-center mt-[2rem]">
+                        <div className="tw-center mt-[2rem] w-[20%]">
                             <Button text={BottomBtnText} />
                         </div>
                     </div>

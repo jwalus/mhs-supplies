@@ -26,7 +26,7 @@ const Text = {
 
     BottomHeader: "Patient-Centered. Practice-Supported.",
     BottomText: "Deliver the right wound care products directly to your patients, while our smart automation tools reduce errors and help your team stay aligned with care protocols.",
-    BottomBtnText: "Contact Us Today!"
+    BottomBtnText: "Contact Us Now!"
 };
 
 export default Text;
