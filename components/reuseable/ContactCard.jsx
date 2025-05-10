@@ -82,12 +82,12 @@ export default function ContactCard() {
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="injury_description">Message<span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
-                        <textarea id="injury_description" name="injury_description" className="py-3 px-3 text-[20px] w-full resize-none" required></textarea>
+                        <label className="my-[0.75rem] text-[16px] font-semibold" htmlFor="message">Message<span className="ml-1 text-red-500 font-bold text-[16.5px]">*</span></label>
+                        <textarea id="message" name="message" className="py-3 px-3 text-[20px] w-full resize-none" required></textarea>
                     </div>
 
-                    <div className="flex justify-center mt-[2rem] mb-[2rem] bg-blue-400">
-                        Get Help
+                    <div className="flex justify-center mt-[2rem] mb-[2rem] bg-blue-500">
+                        Submit
                     </div>
 
                     {formStatus && (

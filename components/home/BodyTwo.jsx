@@ -32,7 +32,7 @@ export default function BodyTwo() {
 
     return (
         <div className="flex justify-center w-full bg-gray-200 h-[60rem]">
-            <div className="w-[65%]">
+            <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
 
                     <div className="flex flex-col gap-[2rem] text-center">

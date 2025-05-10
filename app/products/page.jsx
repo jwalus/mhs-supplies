@@ -6,7 +6,9 @@ export default function Page() {
     <div className="flex flex-col w-full min-h-screen">
       <div>
         <Banner text="Products" />
+        <div>
         <BodyOne />
+        </div>
       </div>
     </div>
   );

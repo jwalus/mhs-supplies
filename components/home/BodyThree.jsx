@@ -19,7 +19,7 @@ export default function BodyThree() {
 
     return (
         <div className="flex justify-center w-full bg-gray-200 py-10">
-            <div className="w-[65%]">
+            <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center">
                     <div className="flex flex-col text-center">
                         <h1 className="">{Header}</h1>

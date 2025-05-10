@@ -3,7 +3,7 @@
 export default function BodyOne() {
     return (
         <div className="flex justify-center w-full bg-gray-200 h-[20rem]">
-            <div className="w-[65%]">
+            <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center h-full">
                     <iframe
                         width="560"

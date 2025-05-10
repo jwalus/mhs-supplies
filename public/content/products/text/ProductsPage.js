@@ -22,7 +22,7 @@ const Text = {
     Point7: "Issue a Standard Written Order (SWO) to initiate delivery of up to one month’s supply of daily-use Wound Care Kits.",
     Point8: "Customized Care: Each Wound Care Kit is tailored to the patient’s clinical needs and shipped directly to their home.",
 
-    Button1: "Explore Your Treatment Options"
+    Button1: "Explore Our Options"
 };
 
 export default Text;  

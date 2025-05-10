@@ -42,7 +42,7 @@ export default function BodyOne() {
 
   return (
     <div className="flex justify-center w-full bg-gray-200">
-      <div className="w-[65%] py-12">
+      <div className="tw-container-responsive py-12">
         <div>
           <h1>{TermsHeader}</h1>
           <h2>{Terms1Title}</h2>

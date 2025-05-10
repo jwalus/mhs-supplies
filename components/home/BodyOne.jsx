@@ -6,7 +6,6 @@ export default function BodyOne() {
     const {
         TextOne,
         TextTwo,
-        ButtonOne,
         SvgOne: SvgOne,
         SvgTextOne,
         SvgTextTwo,
@@ -15,7 +14,7 @@ export default function BodyOne() {
 
     return (
         <div className="flex justify-center w-full bg-gray-200 h-[20rem]">
-            <div className="w-[65%]">
+            <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col text-center gap-[2rem]">
                         <h1 className="">{TextOne}</h1>
@@ -31,9 +30,6 @@ export default function BodyOne() {
                             <SvgTwo className="w-6 h-6 text-gray-800" />
                             <h2>{SvgTextTwo}</h2>
                         </div>
-                    </div>
-                    <div>
-                    <h2 className="bg-blue-500">{ButtonOne}</h2>
                     </div>
                 </div>
             </div>

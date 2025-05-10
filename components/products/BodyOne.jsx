@@ -35,7 +35,7 @@ export default function BodyOne() {
 
     return (
         <div className="flex justify-center w-full bg-gray-200 h-auto py-10">
-            <div className="w-[65%]">
+            <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="">{Header}</h1>
                     <div className="flex flex-row w-full">

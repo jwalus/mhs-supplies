@@ -8,7 +8,6 @@ const Text = {
     SvgTextOne: "Our Products",
     SvgTwo: Phone,
     SvgTextTwo: "Contact Us",
-    ButtonOne: "Btn Text",
 };
 
 export default Text;
