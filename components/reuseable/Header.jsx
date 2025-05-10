@@ -65,7 +65,7 @@ export default function Header() {
             <div key={item.label} className="relative group">
               <a
                 href={item.href}
-                className="relative z-10 flex items-center gap-[0.25rem] px-2 py-2 text-blueOne font-semibold hover:scale-110 tw-transition-standard"
+                className="relative z-10 flex items-center gap-[0.25rem] px-2 py-2 hover:text-orangeOne font-semibold hover:scale-110 tw-transition-standard"
               >
                 {item.label}
                 {item.children && <ChevronRightIcon className="w-4 h-4 transition-transform duration-200 group-hover:rotate-90" />}
@@ -85,7 +85,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-200 shadow-lg px-4 text-blueOne font-semibold text-base flex flex-col text-left z-50">
+        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-200 shadow-lg px-4 hover:text-orangeOne font-semibold text-base flex flex-col text-left z-50">
           {navLinks.map((item, index) => (
             <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b" : ""}`}>
               <button

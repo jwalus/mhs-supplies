@@ -47,10 +47,9 @@ export default function BodyOne() {
         <div className="flex justify-center w-full  h-auto py-10">
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
-                    <h1 className="text-xl font-semibold">{Header}</h1>
                     <div className="flex flex-col w-full gap-[4rem] mdlg:flex-row">
                         <div className="mdlg:w-2/3">
-                            <h2 className="text-orangeOne font-semibold my-[1.2rem]">Products:</h2>
+                        <h1 className="text-xl font-semibold mb-[2rem] text-left">{Header}</h1>
                             <div className="space-y-4">
                                 {products.map((product, index) => (
                                     <div key={index}>

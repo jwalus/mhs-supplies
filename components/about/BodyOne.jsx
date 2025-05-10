@@ -27,7 +27,7 @@ export default function BodyOne() {
                                 </div>
                             </div>
                             <div className="mdlg:w-1/2">
-                                <div className="flex justify-center items-center mdlg:justify-start">
+                                <div className="flex justify-center items-center">
                                     <Image
                                         src="/content/about/images/hospital.png"
                                         alt="MHS Logo"

@@ -4,84 +4,54 @@ import Text from "@/public/content/privacy/text/Privacy";
 export default function BodyOne() {
   const {
     TermsHeader,
-    Terms1Title,
-    Terms1Content,
-    Terms2Title,
-    Terms2Content,
-    Terms3Title,
-    Terms3Content,
-    Terms4Title,
-    Terms4Content,
-    Terms5Title,
-    Terms5Content,
-    Terms6Title,
-    Terms6Content,
-    Terms7Title,
-    Terms7Content,
-    Terms8Title,
-    Terms8Content,
     PrivacyHeader,
     PrivacyIntro,
-    Privacy1Title,
-    Privacy1Content,
-    Privacy2Title,
-    Privacy2Content,
-    Privacy3Title,
-    Privacy3Content,
-    Privacy4Title,
-    Privacy4Content,
-    Privacy5Title,
-    Privacy5Content,
-    Privacy6Title,
-    Privacy6Content,
-    Privacy7Title,
-    Privacy7Content,
-    Privacy8Title,
-    Privacy8Content,
   } = Text;
 
+  const terms = [
+    { title: Text.Terms1Title, content: Text.Terms1Content },
+    { title: Text.Terms2Title, content: Text.Terms2Content },
+    { title: Text.Terms3Title, content: Text.Terms3Content },
+    { title: Text.Terms4Title, content: Text.Terms4Content },
+    { title: Text.Terms5Title, content: Text.Terms5Content },
+    { title: Text.Terms6Title, content: Text.Terms6Content },
+    { title: Text.Terms7Title, content: Text.Terms7Content },
+    { title: Text.Terms8Title, content: Text.Terms8Content },
+  ];
+
+  const privacy = [
+    { title: Text.Privacy1Title, content: Text.Privacy1Content },
+    { title: Text.Privacy2Title, content: Text.Privacy2Content },
+    { title: Text.Privacy3Title, content: Text.Privacy3Content },
+    { title: Text.Privacy4Title, content: Text.Privacy4Content },
+    { title: Text.Privacy5Title, content: Text.Privacy5Content },
+    { title: Text.Privacy6Title, content: Text.Privacy6Content },
+    { title: Text.Privacy7Title, content: Text.Privacy7Content },
+    { title: Text.Privacy8Title, content: Text.Privacy8Content },
+  ];
+
   return (
-    <div className="flex justify-center w-full ">
+    <div className="flex justify-center w-full">
       <div className="tw-container-responsive py-12">
         <div>
-          <h1>{TermsHeader}</h1>
-          <h2>{Terms1Title}</h2>
-          <p>{Terms1Content}</p>
-          <h2>{Terms2Title}</h2>
-          <p>{Terms2Content}</p>
-          <h2>{Terms3Title}</h2>
-          <p>{Terms3Content}</p>
-          <h2>{Terms4Title}</h2>
-          <p>{Terms4Content}</p>
-          <h2>{Terms5Title}</h2>
-          <p>{Terms5Content}</p>
-          <h2>{Terms6Title}</h2>
-          <p>{Terms6Content}</p>
-          <h2>{Terms7Title}</h2>
-          <p>{Terms7Content}</p>
-          <h2>{Terms8Title}</h2>
-          <p>{Terms8Content}</p>
+          <h1 className="mb-[0.75rem] text-4xl font-bold text-orangeOne">{TermsHeader}</h1>
+          {terms.map(({ title, content }, index) => (
+            <div key={index} className="mb-4">
+              <h2 className="font-semibold">{title}</h2>
+              <p>{content}</p>
+            </div>
+          ))}
         </div>
 
         <div className="mt-12">
-          <h1>{PrivacyHeader}</h1>
-          <p>{PrivacyIntro}</p>
-          <h2>{Privacy1Title}</h2>
-          <p>{Privacy1Content}</p>
-          <h2>{Privacy2Title}</h2>
-          <p>{Privacy2Content}</p>
-          <h2>{Privacy3Title}</h2>
-          <p>{Privacy3Content}</p>
-          <h2>{Privacy4Title}</h2>
-          <p>{Privacy4Content}</p>
-          <h2>{Privacy5Title}</h2>
-          <p>{Privacy5Content}</p>
-          <h2>{Privacy6Title}</h2>
-          <p>{Privacy6Content}</p>
-          <h2>{Privacy7Title}</h2>
-          <p>{Privacy7Content}</p>
-          <h2>{Privacy8Title}</h2>
-          <p>{Privacy8Content}</p>
+          <h1 className="mb-[0.75rem] text-4xl font-bold text-orangeOne">{PrivacyHeader}</h1>
+          <p className="mb-[1.5rem] text-xl font-semibold">{PrivacyIntro}</p>
+          {privacy.map(({ title, content }, index) => (
+            <div key={index} className="mb-4">
+              <h2 className="font-semibold">{title}</h2>
+              <p>{content}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
