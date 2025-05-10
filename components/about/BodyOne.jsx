@@ -1,13 +1,16 @@
 "use client";
 import Text from "@/public/content/about/text/AboutUsPage";
 import Image from "next/image";
+import Button from "../reuseable/Button";
 
 export default function BodyOne() {
     const {
         AboutHeader,
         AboutParagraph1,
         AboutParagraph2,
-        AboutParagraph3
+        AboutParagraph3,
+        Button1,
+        Button2,
     } = Text;
 
     return (
@@ -37,6 +40,9 @@ export default function BodyOne() {
                                     <p>{AboutParagraph3}</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="mt-[1.25rem] flex justify-start mdlg:justify-center">
+                            <Button text={Button1} />
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,10 @@ const Text = {
 
     AboutParagraph2: "What sets us apart is our dedication to collaboration and customization. We don’t just ship products — we listen, educate, and tailor our offerings to fit the specific needs of each patient and provider. Whether you’re treating chronic wounds, surgical sites, or acute injuries, our curated kits ensure you have the right tools at the right time, every time.",
 
-    AboutParagraph3: "Today, our experience, clinical partnerships, and focus on quality continue to guide everything we do. From training staff to navigating documentation, we stand beside our providers as a reliable, responsive partner in care."
+    AboutParagraph3: "Today, our experience, clinical partnerships, and focus on quality continue to guide everything we do. From training staff to navigating documentation, we stand beside our providers as a reliable, responsive partner in care.",
+
+    Button1: "Contact Our Team",
+    Button2: "View Our Products",
 };
 
 export default Text;
