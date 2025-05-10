@@ -52,11 +52,11 @@ export default function BodyOne() {
                     <h1 className="text-xl font-semibold">{Header}</h1>
                     <div className="flex flex-col w-full gap-[4rem] mdlg:flex-row">
                         <div className="mdlg:w-2/3">
-                            <h2 className="text-blueOne font-semibold my-[1.2rem]">Products:</h2>
+                            <h2 className="text-orangeOne font-semibold my-[1.2rem]">Products:</h2>
                             <div className="space-y-4">
                                 {products.map((product, index) => (
                                     <div key={index}>
-                                        <h3 className="text-2xl pb-[0.4rem] font-semibold">{product.name}</h3>
+                                        <h3 className="text-2xl pb-[0.4rem] font-semibold text-blueOne">{product.name}</h3>
                                         <p className="text-lg w-[90%]">{product.data}</p>
                                     </div>
                                 ))}

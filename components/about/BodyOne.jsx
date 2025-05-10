@@ -11,25 +11,31 @@ export default function BodyOne() {
     } = Text;
 
     return (
-        <div className="flex justify-center w-full  h-auto py-10">
+        <div className="flex justify-center w-full h-auto py-10">
             <div className="tw-container-responsive">
-                <div className="flex flex-col justify-center items-center text-center">
-                    <div className="flex flex-row">
-                        <div className="w-1/2">
-                            <h1 className="text-2xl font-bold mb-4">{AboutHeader}</h1>
-                            <p className="mb-4">{AboutParagraph1}</p>
-                            <p className="mb-4">{AboutParagraph2}</p>
-                            <p>{AboutParagraph3}</p>
-                        </div>
-                        <div className="w-1/2">
-                            <div className="">
-                                <Image
-                                    src="/content/about/images/hospital.png"
-                                    alt="MHS Logo"
-                                    width={400}
-                                    height={10000}
-                                    priority
-                                />
+                <div>
+                    <div className="flex flex-col gap-[2rem]">
+                        <h1 className="text-3xl font-semibold text-orangeOne">{AboutHeader}</h1>
+                        <div className="flex flex-col mdlg:flex-row gap-[4rem]">
+                            <div className="mdlg:w-1/2">
+                                <div className="flex flex-col gap-[2rem] text-lg">
+                                    <p>{AboutParagraph1}</p>
+                                    <p>{AboutParagraph2}</p>
+                                </div>
+                            </div>
+                            <div className="mdlg:w-1/2">
+                                <div className="flex justify-center items-center mdlg:justify-start">
+                                    <Image
+                                        src="/content/about/images/hospital.png"
+                                        alt="MHS Logo"
+                                        width={400}
+                                        height={10000}
+                                        priority
+                                    />
+                                </div>
+                                <div className="mt-[2rem] text-lg">
+                                    <p>{AboutParagraph3}</p>
+                                </div>
                             </div>
                         </div>
                     </div>

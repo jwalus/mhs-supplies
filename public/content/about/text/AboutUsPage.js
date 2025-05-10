@@ -1,5 +1,5 @@
 const Text = {
-    AboutHeader: "About Us",
+    AboutHeader: "About MHS Wound Care",
 
     AboutParagraph1: "For over two decades, we’ve been committed to advancing wound care through personalized, clinically backed solutions that empower both healthcare providers and their patients. Founded with a mission to bridge the gap between high-quality medical products and everyday clinical use, our team has worked hand-in-hand with clinicians to deliver wound care kits that simplify treatment, improve outcomes, and support healing at home.",
 
