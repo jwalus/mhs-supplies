@@ -79,13 +79,13 @@ export default function Header() {
           className="md:hidden p-2"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          {mobileMenuOpen ? <XIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
+          {mobileMenuOpen ? <XIcon className="w-[2rem] h-[2rem]" /> : <MenuIcon className="w-[2rem] h-[2rem]" />}
         </button>
       </div>
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-[6.5rem] left-0 w-full bg-gray-300 shadow-lg px-4 py-4 text-sm font-medium flex flex-col text-left z-50">
+        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-300 shadow-lg px-4 text-sm font-medium flex flex-col text-left z-50">
           {navLinks.map((item, index) => (
             <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b" : ""}`}>
               <button
