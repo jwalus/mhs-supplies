@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Text from "@/public/content/home/text/BodyThreeText";
 
 export default function BodyThree() {
@@ -24,7 +25,13 @@ export default function BodyThree() {
                         <h1 className="">{Header}</h1>
                         <div className="flex flex-row">
                             <div className="w-1/2">
-                                img
+                                <Image
+                                    src="/content/home/images/mhspackage.png"
+                                    alt="MHS Logo"
+                                    width={400}
+                                    height={10000}
+                                    priority
+                                />
                             </div>
                             <div className="flex flex-col w-1/2">
                                 {textArray.map((text, index) => (

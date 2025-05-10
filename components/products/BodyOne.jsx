@@ -1,5 +1,6 @@
 "use client";
 import Text from "@/public/content/products/text/ProductsPage";
+import Image from "next/image";
 
 export default function BodyOne() {
     const {
@@ -54,9 +55,13 @@ export default function BodyOne() {
                         </div>
                         <div className="w-1/3">
                             <div className="">
-                                <div className="h-40 bg-white flex items-center justify-center border border-gray-400 rounded">
-                                    <span className="text-gray-500">Image Placeholder</span>
-                                </div>
+                                <Image
+                                    src="/content/home/images/mhspackage.png"
+                                    alt="MHS Logo"
+                                    width={400}
+                                    height={10000}
+                                    priority
+                                />
                             </div>
                             <div>
                                 <ul className="list-disc list-inside">

@@ -4,6 +4,7 @@ import MenuIcon from "@/public/content/header/svgs/Menu";
 import XIcon from "@/public/content/header/svgs/X";
 import ChevronRightIcon from "@/public/content/header/svgs/ChevronRight";
 import navLinks from "@/public/content/header/text/navLinks";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,8 +46,16 @@ export default function Header() {
   return (
     <header className="relative z-50 w-full h-[6.5rem] bg-gray-300 flex justify-center">
       <div className="flex items-center justify-between w-[65%]">
-        <div className="text-lg font-bold">
-          <a href="/">LOGO</a>
+        <div className="flex justify-center items-center">
+          <a href="/" className="w-[290px]">
+            <Image
+              src="/content/home/images/MHSwoundcare.png"
+              alt="MHS Logo"
+              width={10000}
+              height={10000}
+              priority
+            />
+          </a>
         </div>
 
         {/* Desktop Navigation */}
@@ -114,7 +123,7 @@ export default function Header() {
                 }
                 className="w-full text-left py-3 flex justify-between items-center"
               >
-                
+
                 {item.children && (
                   <ChevronRightIcon
                     className={`w-4 h-4 transition-transform duration-200 ${openMobileDropdown === item.label ? "rotate-90" : ""}`}
