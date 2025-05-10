@@ -28,17 +28,14 @@ const Text = {
     Point2: "Access expert support for both provider training and patient education.",
     Point2Svg: Hospital,
 
-    Point3: "Easily establish medical necessity with guided wound assessment tools.",
-    Point3Svg: Medical,
+    Point3: "Improve diagnosis and care with input from Certified Wound Specialists (CWS).",
+    Point3Svg: Bandage,
 
-    Point4: "Improve diagnosis and care with input from Certified Wound Specialists (CWS).",
-    Point4Svg: Bandage,
+    Point4: "Submit a Standard Written Order (SWO) to begin delivery of up to 30 days of supplies.",
+    Point4Svg: MedicalBoard,
 
-    Point5: "Submit a Standard Written Order (SWO) to begin delivery of up to 30 days of supplies.",
-    Point5Svg: MedicalBoard,
-
-    Point6: "Each kit is personalized to the patient’s needs and shipped directly to their home.",
-    Point6Svg: House,
+    Point5: "Each kit is personalized to the patient’s needs and shipped directly to their home.",
+    Point5Svg: House,
 
     Button1: "Explore Our Options"
 };

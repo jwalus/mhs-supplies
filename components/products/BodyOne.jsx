@@ -25,7 +25,6 @@ export default function BodyOne() {
         Point3Svg,
         Point4Svg,
         Point5Svg,
-        Point6Svg,
         Button1,
     } = Text;
 
@@ -42,7 +41,6 @@ export default function BodyOne() {
         { text: Point3, Icon: Point3Svg },
         { text: Point4, Icon: Point4Svg },
         { text: Point5, Icon: Point5Svg },
-        { text: Point6, Icon: Point6Svg },
     ];
 
     return (

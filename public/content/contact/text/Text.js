@@ -1,7 +1,7 @@
 import Phone from "@/public/content/home/svgs/Phone";
-import Clock from "@/public/content/contact/svgs/Clock";
 import Pin from "@/public/content/contact/svgs/Pin";
 import Email from "@/public/content/contact/svgs/Email";
+import Clock from "@/public/content/contact/svgs/Clock";
 import BusinessInfo from "../../reuseable/BusinessInfo";
 
 const Text = {

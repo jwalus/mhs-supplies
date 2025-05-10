@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       <div>
-      <BodyOne />
-      <BodyTwo />
-      <BodyThree />
+        <BodyOne />
+        <BodyTwo />
+        <BodyThree />
       </div>
     </div>
   );

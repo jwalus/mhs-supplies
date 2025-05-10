@@ -6,7 +6,7 @@
 
 @layer components {
   .tw-container-responsive {
-    @apply w-[95%] lg:w-[85%] xl:w-[65%];
+    @apply w-[95%] lg:w-[85%] xl:w-[70%];
   }
 
   .tw-bg-blue-gradient {
