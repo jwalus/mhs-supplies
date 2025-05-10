@@ -37,7 +37,7 @@ export default function BodyTwo() {
                 <div className="flex flex-col justify-center items-center">
 
                     <div className="flex flex-col gap-[2rem] text-center">
-                        <h1 className="text-3xl font-semibold">{TopHeader}</h1>
+                        <h1 className="text-3xl font-semibold text-orangeOne">{TopHeader}</h1>
                         <h2 className="text-xl">{TopText}</h2>
                     </div>
 
@@ -45,7 +45,7 @@ export default function BodyTwo() {
 
                         <div className="tw-center md:text-left flex flex-col sm:flex-row gap-[2rem]">
                             <div className="sm:w-[10%]">
-                                <SvgOne className="w-[4.5rem] h-[4.5rem] text-gray-800" />
+                                <SvgOne className="w-[4.5rem] h-[4.5rem] text-blueOne" />
                             </div>
                             <div className="sm:w-[80%]">
                                 <h1 className="text-2xl font-semibold">{SvgOneTextOne}</h1>
@@ -55,7 +55,7 @@ export default function BodyTwo() {
 
                         <div className="tw-center md:text-left flex flex-col sm:flex-row gap-[2rem]">
                             <div className="sm:w-[10%]">
-                                <SvgTwo className="w-[4.5rem] h-[4.5rem] text-gray-800" />
+                                <SvgTwo className="w-[4.5rem] h-[4.5rem] text-blueOne" />
                             </div>
                             <div className="sm:w-[80%]">
                                 <h1 className="text-2xl font-semibold">{SvgTwoTextOne}</h1>
@@ -65,7 +65,7 @@ export default function BodyTwo() {
 
                         <div className="tw-center md:text-left flex flex-col sm:flex-row gap-[2rem]">
                             <div className="sm:w-[10%]">
-                                <SvgThree className="w-[4.5rem] h-[4.5rem] text-gray-800" />
+                                <SvgThree className="w-[4.5rem] h-[4.5rem] text-blueOne" />
                             </div>
                             <div className="sm:w-[80%]">
                                 <h1 className="text-2xl font-semibold">{SvgThreeTextOne}</h1>
@@ -75,7 +75,7 @@ export default function BodyTwo() {
 
                         <div className="tw-center md:text-left flex flex-col sm:flex-row gap-[2rem]">
                             <div className="sm:w-[10%]">
-                                <SvgFour className="w-[4.5rem] h-[4.5rem] text-gray-800" />
+                                <SvgFour className="w-[4.5rem] h-[4.5rem] text-blueOne" />
                             </div>
                             <div className="sm:w-[80%]">
                                 <h1 className="text-2xl font-semibold">{SvgFourTextOne}</h1>

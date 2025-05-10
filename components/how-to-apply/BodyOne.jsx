@@ -6,7 +6,7 @@ export default function BodyOne() {
             <div className="tw-container-responsive mt-[4rem] tw-center flex-col">
                 <div className="flex flex-col gap-[2rem]">
                     <h1 className="text-2xl font-semibold text-orangeOne">Learn How to Properly Apply Wound Care Products for Optimal Healing</h1>
-                    <h2 className="md:text-xl">This step-by-step video will guide you through the correct application of collagen dressings, powders, and other wound care materials.</h2>
+                    <h2 className="md:text-lg">This step-by-step video will guide you through the correct application of collagen dressings, powders, and other wound care materials.</h2>
                 </div>
                 <div className="flex flex-col justify-center items-center my-[4rem] w-full h-full">
                     <iframe

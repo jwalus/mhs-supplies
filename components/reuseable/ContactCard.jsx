@@ -53,8 +53,11 @@ export default function ContactCard() {
     return (
         <div>
             <div className="bg-gray-200 p-[1rem]">
-                <div  className="text-2xl font-semibold text-orangeOne">
+                <div className="text-2xl font-semibold text-orangeOne">
                     Contact Us Today
+                </div>
+                <div className="text-lg my-[0.75rem]">
+                    Fill in the form below and we’ll get back to you as soon as possible.
                 </div>
                 <form className="flex flex-col w-full">
                     <div className="flex flex-col w-full">
@@ -87,8 +90,8 @@ export default function ContactCard() {
                         <textarea id="message" name="message" className="py-3 px-3 text-[18px] w-full resize-none" required></textarea>
                     </div>
 
-                    <div className="mt-[1rem]">
-                    <Button text={"Submit"} />
+                    <div className="mt-[1.35rem]">
+                        <Button text={"Submit"} />
                     </div>
 
                     {formStatus && (

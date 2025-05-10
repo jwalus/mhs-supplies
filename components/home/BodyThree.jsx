@@ -22,7 +22,7 @@ export default function BodyThree() {
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center">
                     <div className="flex flex-col text-center">
-                        <h1 className="text-3xl mb-[2rem] font-semibold">{Header}</h1>
+                        <h1 className="text-3xl mb-[2rem] font-semibold text-orangeOne">{Header}</h1>
                         <div className="tw-center flex-col md:flex-row">
                             <div className="md:w-1/2">
                                 <Image
