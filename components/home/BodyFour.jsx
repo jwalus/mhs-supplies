@@ -4,13 +4,10 @@ import Button from "../reuseable/Button";
 export default function BodyFour() {
 
     const {
-
         BottomHeader,
         BottomText,
         BottomBtnText,
     } = Text;
-
-
 
     return (
         <div className="flex justify-center w-full h-auto tw-bg-blue-gradient">
