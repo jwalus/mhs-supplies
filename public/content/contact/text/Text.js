@@ -20,7 +20,7 @@ const Text = {
     Svg4: Clock,
 
     SideHeader: "GET IN TOUCH",
-    SideText1: "We’re here to support you.",
+    SideText1: "We’re here to help.",
     SideText2: "At MHS Wound Care, we proudly serve dozens of medical providers with reliable access to essential wound care and medical supplies. Whether you have a question or need product support, our team is ready to help you get what you need — quickly and confidently."
 };
 
