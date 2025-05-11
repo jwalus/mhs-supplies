@@ -42,7 +42,9 @@ export default function BodyOne() {
                             </div>
                         </div>
                         <div className="mt-[1.25rem] flex justify-start mdlg:justify-center">
+                            <a href="/contact-us">
                             <Button text={Button1} />
+                            </a>
                         </div>
                     </div>
                 </div>

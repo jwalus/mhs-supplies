@@ -49,7 +49,7 @@ export default function BodyOne() {
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col w-full gap-[4rem] mdlg:flex-row">
                         <div className="mdlg:w-2/3">
-                        <h1 className="text-xl font-semibold mb-[2rem] text-left">{Header}</h1>
+                            <h1 className="text-xl font-semibold mb-[2rem] text-left">{Header}</h1>
                             <div className="space-y-4">
                                 {products.map((product, index) => (
                                     <div key={index}>
@@ -59,7 +59,9 @@ export default function BodyOne() {
                                 ))}
                             </div>
                             <div className="mt-[3rem]">
-                                <Button text={Button1} />
+                                <a href="contact-us">
+                                    <Button text={Button1} />
+                                </a>
                             </div>
                         </div>
                         <div className="mdlg:w-1/3">
