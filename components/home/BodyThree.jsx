@@ -35,9 +35,9 @@ export default function BodyThree() {
                             </div>
                             <div className="flex flex-col md:w-1/2 gap-[0.75rem]">
                                 {textArray.map((text, index) => (
-                                    <div key={index} className="flex flex-row gap-[0.3rem]">
+                                    <div key={index} className="flex flex-row gap-[0.3rem] px-[0.5rem]">
                                         <Svg className="w-[1.4rem] h-[1.4rem] mt-1 text-blueTwo" />
-                                        <p className="pl-[0.65rem] text-left w-[450px]">{text}</p>
+                                        <p className="pl-[0.65rem] text-left w-auto">{text}</p>
                                     </div>
                                 ))}
                             </div>

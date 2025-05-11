@@ -3,6 +3,8 @@ import Footer from "@/components/reuseable/Footer";
 import BodyOne from "@/components/home/BodyOne";
 import BodyTwo from "@/components/home/BodyTwo";
 import BodyThree from "@/components/home/BodyThree";
+import BodyFour from "@/components/home/BodyFour";
+
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <div>
         <BodyOne />
         <BodyTwo />
+        <BodyFour />
         <BodyThree />
       </div>
     </div>

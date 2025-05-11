@@ -32,12 +32,12 @@ export default function BodyTwo() {
 
 
     return (
-        <div className="flex justify-center w-full  h-auto">
+        <div className="flex justify-center w-full h-auto">
             <div className="tw-container-responsive">
                 <div className="flex flex-col justify-center items-center">
 
                     <div className="flex flex-col gap-[2rem] text-center">
-                        <h1 className="text-3xl font-semibold text-orangeOne">{TopHeader}</h1>
+                        <h1 className="text-3xl font-semibold text-orangeOne mt-[3rem]">{TopHeader}</h1>
                         <h2 className="text-xl">{TopText}</h2>
                     </div>
 
@@ -81,17 +81,6 @@ export default function BodyTwo() {
                                 <h1 className="text-2xl font-semibold">{SvgFourTextOne}</h1>
                                 <h2 className="text-lg">{SvgFourTextTwo}</h2>
                             </div>
-                        </div>
-
-                    </div>
-
-                    <div className="flex flex-col md:flex-row">
-                        <div className="flex flex-col gap-[2rem] w-[80%]">
-                            <h1 className="text-2xl font-semibold">{BottomHeader}</h1>
-                            <h2 className="md:text-xl">{BottomText}</h2>
-                        </div>
-                        <div className="tw-center mt-[2rem] w-[20%]">
-                            <Button text={BottomBtnText} />
                         </div>
                     </div>
                 </div>
