@@ -34,7 +34,7 @@ export default function BodyOne() {
     <div className="flex justify-center w-full">
       <div className="tw-container-responsive py-12">
         <div>
-          <h1 className="mb-[0.75rem] text-4xl font-bold text-orangeOne">{TermsHeader}</h1>
+          <h1 className="mb-[0.75rem] text-4xl font-bold text-blueOne">{TermsHeader}</h1>
           {terms.map(({ title, content }, index) => (
             <div key={index} className="mb-4">
               <h2 className="font-semibold">{title}</h2>
@@ -44,7 +44,7 @@ export default function BodyOne() {
         </div>
 
         <div className="mt-12">
-          <h1 className="mb-[0.75rem] text-4xl font-bold text-orangeOne">{PrivacyHeader}</h1>
+          <h1 className="mb-[0.75rem] text-4xl font-bold text-blueOne">{PrivacyHeader}</h1>
           <p className="mb-[1.5rem] text-xl font-semibold">{PrivacyIntro}</p>
           {privacy.map(({ title, content }, index) => (
             <div key={index} className="mb-4">

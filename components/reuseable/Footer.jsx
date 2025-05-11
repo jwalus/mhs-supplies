@@ -12,7 +12,16 @@ export default function Footer() {
     Svg1,
     Svg2,
     Svg3,
+    SvgChevron,
   } = Text;
+
+  const links = [
+    { label: "Products", href: "/products" },
+    { label: "How To Apply", href: "/how-to-apply" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact-us" },
+    { label: "Terms & Privacy", href: "/privacy" },
+  ];
 
   return (
     <footer className="w-full flex justify-center bg-gray-200">
@@ -30,27 +39,38 @@ export default function Footer() {
               />
             </a>
           </div>
-          <div className="md:w-1/3 tw-center flex-col text-center gap-[1rem] text-base">
-            <h1 className="font-semibold text-lg mb-2 text-orangeOne">{Header}</h1>
-            <div className="flex items-center justify-center gap-2">
-              <p className="tw-center gap-[0.5rem]"><Svg2 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text2}</p>
-            </div>
-            <div className="flex items-center justify-center gap-2">
-              <p className="tw-center gap-[0.5rem]"><Svg3 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text3}</p>
-            </div>
-            <div className="flex items-center justify-center gap-2 text-center">
-              <div>
-                <p className="tw-center gap-[0.5rem]"><Svg1 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text1P1}</p>
-                <p>{Text1P2}</p>
+          <div className="md:w-1/3 tw-center flex-col text-center text-sm">
+            <h1 className="font-semibold text-lg text-blueOne mb-[0.5rem]">{Header}</h1>
+            <div className="flex flex-col gap-[0.45rem]">
+              <div className="flex items-center justify-center gap-2">
+                <p className="tw-center gap-[0.5rem]"><Svg2 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text2}</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <p className="tw-center gap-[0.5rem]"><Svg3 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text3}</p>
+              </div>
+              <div className="flex items-center justify-center gap-2 text-center">
+                <div>
+                  <p className="tw-center gap-[0.5rem]"><Svg1 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text1P1}</p>
+                  <p>{Text1P2}</p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="md:w-1/3 mt-[3rem] md:mt-0 tw-center flex-col text-center text-base gap-[0.355rem] text-blueOne font-semibold">
-            <a className="hover:scale-110 tw-transition-standard" href="/products">Products</a>
-            <a className="hover:scale-110 tw-transition-standard" href="/how-to-apply">How To Apply</a>
-            <a className="hover:scale-110 tw-transition-standard" href="/about">About</a>
-            <a className="hover:scale-110 tw-transition-standard" href="/contact-us">Contact</a>
-            <a className="hover:scale-110 tw-transition-standard" href="/privacy">Terms & Privacy</a>
+          <div className="md:w-1/3 mt-[3rem] md:mt-0 tw-center flex-col text-sm gap-[0.355rem] font-semibold">
+            <h1 className="text-blueOne text-lg">Links</h1>
+            <div className="text-sm gap-[0.355rem] flex flex-col items-start">
+              {links.map(({ label, href }) => (
+                <a
+                  key={href}
+                  href={href}
+                  className="hover:scale-110 hover:text-blueOne tw-transition-standard flex items-center gap-1"
+                >
+                  <SvgChevron className="w-4 h-4 ml-[2rem]" />
+                  {label}
+                </a>
+              ))}
+            </div>
+
           </div>
         </div>
         <div className="border-t-[1px] border-blueOne pt-[1rem]">
