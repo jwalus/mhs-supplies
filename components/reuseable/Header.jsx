@@ -85,9 +85,9 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-200 shadow-lg px-4 hover:text-orangeOne font-semibold text-base flex flex-col text-left z-50">
+        <div className="md:hidden absolute top-[6rem] left-0 w-full bg-gray-200 shadow-lg px-4 font-semibold text-base flex flex-col text-left z-50">
           {navLinks.map((item, index) => (
-            <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b" : ""}`}>
+            <div key={item.label} className={`w-full ${index !== navLinks.length - 1 ? "border-b border-gray-300" : "mb-[1rem]"}`}>
               <button
                 onClick={() =>
                   setOpenMobileDropdown(openMobileDropdown === item.label ? null : item.label)
