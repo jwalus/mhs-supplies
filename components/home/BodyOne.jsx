@@ -13,7 +13,7 @@ export default function BodyOne() {
 
     return (
         <div
-            className="relative flex justify-center w-full min-h-[85vh] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-blueOne before:opacity-55"
+            className="relative flex justify-center w-full min-h-[85vh] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-blueOne before:opacity-65"
             style={{
                 backgroundImage: "url('/content/home/images/doctor.png')",
             }}
@@ -25,16 +25,16 @@ export default function BodyOne() {
                         <h2 className="md:text-xl font-semibold text-white">{TextTwo}</h2>
                     </div>
                     <div className="flex flex-row gap-[4rem] mt-[5rem]">
-                        <div className="hover:scale-110 tw-transition-standard">
-                            <a href="/products" className="flex-col tw-center text-white">
+                        <div className="hover:scale-110 text-white tw-transition-standard">
+                            <a href="/products" className="flex-col tw-center">
                                 <SvgOne className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem]" />
                                 <h2 className="text-xl font-bold">{SvgTextOne}</h2>
                             </a>
                         </div>
-                        <div className="hover:scale-110 tw-transition-standard">
+                        <div className="hover:scale-110 text-white tw-transition-standard">
                             <a href="/contact-us">
-                                <SvgTwo className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem] text-white" />
-                                <h2 className="text-xl font-bold text-white">{SvgTextTwo}</h2>
+                                <SvgTwo className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem]" />
+                                <h2 className="text-xl font-bold">{SvgTextTwo}</h2>
                             </a>
                         </div>
                     </div>
