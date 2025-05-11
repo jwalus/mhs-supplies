@@ -5,6 +5,7 @@ import XIcon from "@/public/content/header/svgs/X";
 import ChevronRightIcon from "@/public/content/header/svgs/ChevronRight";
 import navLinks from "@/public/content/header/text/navLinks";
 import Image from "next/image";
+import Button from "../reuseable/Button";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -60,16 +61,22 @@ export default function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8 text-base font-medium">
+        <nav className="hidden md:flex items-center space-x-5 text-base font-medium">
           {navLinks.map((item) => (
             <div key={item.label} className="relative group">
-              <a
-                href={item.href}
-                className="relative z-10 flex items-center gap-[0.25rem] px-2 py-2 hover:text-orangeOne font-semibold hover:scale-110 tw-transition-standard"
-              >
-                {item.label}
-                {item.children && <ChevronRightIcon className="w-4 h-4 transition-transform duration-200 group-hover:rotate-90" />}
-              </a>
+              {item.label === "Contact" ? (
+                <a href={item.href}>
+                  <Button text="Contact" />
+                </a>
+              ) : (
+                <a
+                  href={item.href}
+                  className="relative z-10 flex items-center gap-[0.25rem] px-2 py-2 hover:text-orangeOne font-semibold hover:scale-110 tw-transition-standard"
+                >
+                  {item.label}
+                  {item.children && <ChevronRightIcon className="w-4 h-4 transition-transform duration-200 group-hover:rotate-90" />}
+                </a>
+              )}
             </div>
           ))}
         </nav>

@@ -52,7 +52,7 @@ export default function ContactCard() {
 
     return (
         <div>
-            <div className="bg-gray-200 p-[1rem]">
+            <div className="bg-gray-200 p-[1rem] shadow-lg">
                 <div className="text-2xl font-semibold text-orangeOne">
                     Contact Us Today
                 </div>
