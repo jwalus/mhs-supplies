@@ -49,7 +49,7 @@ export default function Footer() {
             <a className="hover:scale-110 tw-transition-standard" href="/products">Products</a>
             <a className="hover:scale-110 tw-transition-standard" href="/how-to-apply">How To Apply</a>
             <a className="hover:scale-110 tw-transition-standard" href="/about">About</a>
-            <a className="hover:scale-110 tw-transition-standard" href="/contact">Contact</a>
+            <a className="hover:scale-110 tw-transition-standard" href="/contact-us">Contact</a>
             <a className="hover:scale-110 tw-transition-standard" href="/privacy">Terms & Privacy</a>
           </div>
         </div>
