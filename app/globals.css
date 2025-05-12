@@ -45,6 +45,7 @@ body {
   padding: 0;
   height: 100%; 
   width: 100%;
+  font-size: 19px;
   box-sizing: border-box;
   font-family: 'Baloo 2', 'Noto Sans', 'Arial', 'sans-serif';
   overflow-x: hidden;
