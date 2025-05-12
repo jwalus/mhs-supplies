@@ -18,10 +18,10 @@ export default function BodyOne() {
             <div className="tw-container-responsive">
                 <div>
                     <div className="flex flex-col gap-[2rem]">
-                        <h1 className="text-3xl font-semibold text-orangeOne">{AboutHeader}</h1>
                         <div className="flex flex-col mdlg:flex-row gap-[4rem]">
                             <div className="mdlg:w-1/2">
                                 <div className="flex flex-col gap-[2rem] text-lg">
+                                <h1 className="text-3xl font-semibold text-orangeOne">{AboutHeader}</h1>
                                     <p>{AboutParagraph1}</p>
                                     <p>{AboutParagraph2}</p>
                                 </div>
