@@ -30,6 +30,7 @@ export default function BodyOne() {
                                 <div className="flex justify-center items-center">
                                     <Image
                                         src="/content/about/images/hospital.png"
+                                        className="rounded-md"
                                         alt="MHS Logo"
                                         width={400}
                                         height={10000}

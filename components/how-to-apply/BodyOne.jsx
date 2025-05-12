@@ -10,7 +10,7 @@ export default function BodyOne() {
                 </div>
                 <div className="flex flex-col justify-center items-center my-[4rem] w-full h-full">
                     <iframe
-                        className="flex justify-center items-center w-full h-full"
+                        className="flex justify-center items-center w-full h-full rounded-md"
                         src="https://www.youtube.com/embed/D1uTjaVwGRk"
                         title="How To Apply"
                         frameBorder="0"
