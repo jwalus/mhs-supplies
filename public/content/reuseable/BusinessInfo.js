@@ -9,7 +9,7 @@ const BusinessInfo = {
   },
   contact: {
     phone: "(844) 292-5708",
-    email: "email@email.com",
+    email: "Sales@MHSWoundCare.com",
   },
 };
 
