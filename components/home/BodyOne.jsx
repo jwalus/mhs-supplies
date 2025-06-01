@@ -33,7 +33,7 @@ export default function BodyOne() {
                 </a>
               </div>
               <div className="hover:scale-110 text-white tw-transition-standard">
-                <a href="/contact-us">
+                <a href="/contact-us" className="flex-col tw-center">
                   <SvgTwo className="w-[2.5rem] h-[2.5rem] md:w-[4.5rem] md:h-[4.5rem]" />
                   <h2 className="text-xl font-bold">{SvgTextTwo}</h2>
                 </a>

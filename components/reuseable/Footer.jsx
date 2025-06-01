@@ -26,7 +26,7 @@ export default function Footer() {
   return (
     <footer className="w-full flex justify-center bg-gray-200">
       <div className="tw-container-responsive">
-        <div className="flex flex-col md:flex-row my-[3rem]">
+        <div className="flex flex-col md:flex-row my-[2rem]">
           <div className="md:w-1/3">
             <a href="/" className="py-[3rem] tw-center">
               <Image
@@ -43,14 +43,14 @@ export default function Footer() {
             <h1 className="font-semibold text-lg text-blueOne mb-[0.5rem]">{Header}</h1>
             <div className="flex flex-col gap-[0.45rem]">
               <div className="flex items-center justify-center gap-2">
-                <p className="tw-center gap-[0.5rem]"><Svg2 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text2}</p>
+                <p className="tw-center gap-[0.5rem]"><Svg2 className="w-[1rem] h-[1rem] text-blueOne" />{Text2}</p>
               </div>
               <div className="flex items-center justify-center gap-2">
-                <p className="tw-center gap-[0.5rem]"><Svg3 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text3}</p>
+                <p className="tw-center gap-[0.5rem]"><Svg3 className="w-[1rem] h-[1rem] text-blueOne" />{Text3}</p>
               </div>
               <div className="flex items-center justify-center gap-2 text-center">
                 <div>
-                  <p className="tw-center gap-[0.5rem]"><Svg1 className="w-[1.2rem] h-[1.2rem] text-blueOne" />{Text1P1}</p>
+                  <p className="tw-center gap-[0.5rem]"><Svg1 className="w-[1rem] h-[1rem] text-blueOne" />{Text1P1}</p>
                   <p>{Text1P2}</p>
                 </div>
               </div>

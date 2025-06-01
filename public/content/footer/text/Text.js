@@ -16,4 +16,4 @@ const Text = {
     SvgChevron: ChevronRight,
 };
 
-export default Text;  
+export default Text;
