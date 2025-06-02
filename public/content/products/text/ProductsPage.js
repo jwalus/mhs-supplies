@@ -7,7 +7,7 @@ import Bandage from "../../home/svgs/Bandage";
 
 
 const Text = {
-    Header: "Wound Care Kits deliver a comprehensive selection of advanced healing products, designed to elevate recovery and simplify post-operative care.",
+    Header: "Our specialized wound care solutions deliver a comprehensive selection of advanced healing products, designed to elevate recovery and simplify post-operative care.",
 
     Product1Name: "Collagen Dressing",
     Product1Data: "Our collagen dressings are breathable and skin-friendly, made to replicate the natural healing environment. Their flexible, durable design ensures a smooth application while helping to manage moisture and protect delicate tissue.",
@@ -22,7 +22,7 @@ const Text = {
     Product4Data: "Engineered for secure, all-in-one coverage, these dressings combine a soft, non-adherent pad with an absorbent core and waterproof backing. The gentle adhesive border keeps the dressing in place without irritating the skin — even through daily movement.",
 
 
-    Point1: "Partner with us to deliver customized Wound Care Kits built around your clinical workflow.",
+    Point1: "Partner with us to deliver customized wound care solutions built around your clinical workflow.",
     Point1Svg: Partner,
 
     Point2: "Access expert support for both provider training and patient education.",

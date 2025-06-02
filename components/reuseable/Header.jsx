@@ -71,7 +71,7 @@ export default function Header() {
               ) : (
                 <a
                   href={item.href}
-                  className="relative z-10 flex items-center gap-[0.25rem] px-2 py-2 hover:text-orangeOne font-semibold hover:scale-110 tw-transition-standard"
+                  className="relative z-10 flex items-center gap-[0.25rem] py-2 hover:text-orangeOne font-semibold hover:scale-110 tw-transition-standard"
                 >
                   {item.label}
                   {item.children && <ChevronRightIcon className="w-4 h-4 transition-transform duration-200 group-hover:rotate-90" />}

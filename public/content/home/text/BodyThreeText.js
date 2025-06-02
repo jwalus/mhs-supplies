@@ -1,12 +1,12 @@
 import CircleChevronRight from "@/public/content/home/svgs/CircleChevronRight";
 
 const Text = {
-    Header: "How Wound Care Kits Help Your Practice Thrive",
+    Header: "How Wound Care Solutions Help Your Practice Thrive",
 
     Svg: CircleChevronRight,
 
-    Text1: "Complete wound care kits simplify and enhance post-op recovery.",
-    Text1: "Complete wound care kits simplify and enhance post-op recovery.",
+    Text1: "Complete wound care solutions simplify and enhance post-op recovery.",
+    Text1: "Complete wound care solutions simplify and enhance post-op recovery.",
     Text2: "No need to stock products — no inventory, no overhead.",
     Text3: "Easy-to-use software tracks every order, start to finish.",
     Text4: "Live billing and analytics tools reduce errors and speed up admin tasks.",
